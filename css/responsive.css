@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    .banner{
+        height: 95vh;
+    }
+    .layer_1{
+        bottom: 9vw
+    }
+    .layer_4{
+        bottom: 6vw
+    }
+    .layer_5{
+        bottom: 3vw
+    }    
+}
