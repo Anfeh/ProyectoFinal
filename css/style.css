@@ -99,6 +99,9 @@ p{
     src: url('../tip/tip.ttf');
 }
 
+
+/* Waves */
+
 .custom-shape-divider-bottom-1684267570 {
     position: absolute;
     bottom: 0;
@@ -118,4 +121,7 @@ p{
 
 .custom-shape-divider-bottom-1684267570 .shape-fill {
     fill: #443E94;
+}
+.content h1{
+    padding-top: 5%;
 }
