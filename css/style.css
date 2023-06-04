@@ -36,15 +36,15 @@ body{
 .layer-1{
     z-index: 0;
 }
-img{
+.banner img{
     position: absolute;
     bottom: 0;
     width: 100%;
 }
 
 .content{
-    background-color: #1d1d4f;
-    padding: 60px;
+    background: linear-gradient(#1d1d4f, #2A3340);
+    padding: 250px;
     position: relative;
     height: 80vh;
 }
@@ -100,28 +100,14 @@ p{
 }
 
 
-/* Waves */
-
-.custom-shape-divider-bottom-1684267570 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1684267570 svg {
+.content2{
+    height: 80vh;
+    background: #2A3340;
+    padding: 150px;
+    height: 80vh;
     position: relative;
-    display: block;
-    width: calc(127% + 1.3px);
-    height: 117px;
+    z-index: 1;
 }
-
-.custom-shape-divider-bottom-1684267570 .shape-fill {
-    fill: #443E94;
-}
-.content h1{
-    padding-top: 5%;
+.tamano .carousel img{
+        height: 800px;
 }
