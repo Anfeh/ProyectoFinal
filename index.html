@@ -15,7 +15,6 @@
     
 </head>
 <body>
-    
     <div class="banner">
         <nav>
             <a href="#">Lugares</a>
@@ -43,11 +42,6 @@
             Aquí, en cada rincón del mundo, existen tesoros ocultos esperando ser encontrados y explorados.
              Nuestra misión es llevarte en un viaje de descubrimiento y maravilla, revelando lugares secretos y desconocidos
               que te dejarán sin aliento.</p>
-        <p>
-            Prepárate para sumergirte en paisajes impresionantes, admirar la belleza natural en su estado más puro y conocer culturas 
-            fascinantes que han permanecido intactas durante generaciones. Cada lugar que descubrirás te dejará sin aliento, 
-            y te permitirá conectarte con la esencia misma de la exploración y el descubrimiento.
-        </p>
         
         <p>¿Alguna vez has soñado con alejarte de los destinos turísticos comunes y adentrarte en lo desconocido? 
             ¡Entonces has llegado al lugar adecuado! En esta página, te sumergirás en un universo lleno de misterio y emoción, 
@@ -56,48 +50,47 @@
 
     <div class="content2">
         <h1>Diversidad de lugares para descubrir</h1>
-        <p>Localización de los lugares: "España"</p>
-       <div class="tamano">
+        <p class="center">Localización de los lugares: "España"</p>
+       <div class="contentcenter">
         <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/3.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img/5.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-       </div>
-        <!--
-
-        <div class="wrapper">
-            <div class="carousel">
-                <img src="./img/1.jpg" alt="">
-                <img src="./img/2.jpg" alt="">
-                <img src="./img/3.jpg" alt="">
-                <img src="./img/4.jpg" alt="">
-                <img src="./img/5.jpg" alt="">
+          <div class="carousel-inner">
+            <div class="carousel-item carousel-image active">
+              <img src="img/2.jpg" class="d-block w-100" alt="...">
             </div>
+            <div class="carousel-item carousel-image">
+              <img src="img/4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item carousel-image">
+              <img src="img/5.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-         -->
+      
+       </div>
+       <button type="button" id="boton" class="btn btn-outline-light boton" onclick="verMas()">Ver más</button>
     </div>
+   <footer>
+    <a class="ir-arriba"  javascript:void(0) title="Volver arriba">
+      <span class="fa-stack">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+
+   </footer>
     <script src="./js/scripts.js"></script>
     
 </body>
