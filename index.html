@@ -8,20 +8,25 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
     
     
 </head>
 <body>
+  
     <div class="banner">
+      
         <nav>
-            <a href="#">Lugares</a>
+            <a href="#goto2">Lugares</a>
             <a href="#">Ayuda</a>
             <a href="#">Contacto</a>
             <a href="#">Sign Up</a>
             <a href="#">Login</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
         </nav>
         <img class="layer-1" src="./img/bg.png" alt="">
         <img class="layer-2" src="./img/meteor.png" alt="">
@@ -47,8 +52,8 @@
             ¡Entonces has llegado al lugar adecuado! En esta página, te sumergirás en un universo lleno de misterio y emoción, 
             donde desenterraremos joyas ocultas que han permanecido fuera del radar durante demasiado tiempo.</p>
     </div>
-
-    <div class="content2">
+    
+    <div class="content2" id="goto2">
         <h1>Diversidad de lugares para descubrir</h1>
         <p class="center">Localización de los lugares: "España"</p>
        <div class="contentcenter">
@@ -60,13 +65,13 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item carousel-image active">
-              <img src="img/2.jpg" class="d-block w-100" alt="...">
+              <img src="img/2.jpg" class="d-block w-100">
             </div>
             <div class="carousel-item carousel-image">
-              <img src="img/4.jpg" class="d-block w-100" alt="...">
+              <img src="img/4.jpg" class="d-block w-100" >
             </div>
             <div class="carousel-item carousel-image">
-              <img src="img/5.jpg" class="d-block w-100" alt="...">
+              <img src="img/5.jpg" class="d-block w-100">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
