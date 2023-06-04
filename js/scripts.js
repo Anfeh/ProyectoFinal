@@ -32,7 +32,7 @@ window.onscroll = function(){
 function verMas(){
     let boton = document.getElementById("boton")
     boton.addEventListener("click", function(){
-        window.location.href = ""
+        window.location.href = "./masLugares/index.html"
     })
 }
 
