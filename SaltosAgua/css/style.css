@@ -1,0 +1,128 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    color: white;
+    font-family: 'tipografiaPpal';
+    background-color: #2A3340;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #2A3340;
+}
+.banner nav{
+    position: absolute;
+    right: 0;
+    top: 5vh;
+    z-index: 1;
+}
+.banner nav a{
+    padding-right: 1.5em;
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    font-size: 1vw;
+    z-index: 1;
+}
+.banner nav a:hover{
+    color: #171314d1;
+}
+
+.banner img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+h1{
+    text-align: center;
+    margin: 40px 0;
+}
+p{
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-indent: 50px;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 40px;
+    opacity: 0.7;
+
+}
+
+@font-face {
+    font-family: 'tipografiaPpal';
+    src: url('../tip/tip.ttf');
+}
+
+footer{
+    width: 100%;
+    height: 20vh;
+    background: #2A3340;
+    display: flex;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #2A3340;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color:#f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    color: black;
+}
+
+.topnav .icon{
+    display: none;
+}
+
+.topnav a.activa{
+    color:white;
+}
+
+footer a{
+    align-items: center;
+    padding-left: 2%;
+    text-decoration: none;
+    font-size: 1.4em;
+    display: flex;
+   justify-content: center;
+    color: beige;
+    margin: auto;
+}
+.topnav{
+    z-index: 2;
+}
+.text-center{
+    margin-top: 5%;
+}
+.col{
+    padding: 2%;
+}
+
+img{
+    width: 100%;
+    margin-top: 5%;
+}

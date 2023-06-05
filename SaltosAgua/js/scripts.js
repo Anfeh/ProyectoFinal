@@ -12,6 +12,7 @@ function myFunction(){
 
 
 
+
 let layer_1 = document.querySelector('.layer-1')
 let layer_2 = document.querySelector('.layer-2')
 let layer_3 = document.querySelector('.layer-3')
@@ -31,7 +32,7 @@ window.onscroll = function(){
 function verMas(){
     let boton = document.getElementById("boton")
     boton.addEventListener("click", function(){
-        window.location.href = "../SaltosAgua/index.html"
+        window.location.href = "./masLugares/index.html"
     })
 }
 
