@@ -1,0 +1,140 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    color: rgb(0, 0, 0);
+    font-family: 'tipografiaPpal';
+    background-color: #2A3340;
+}
+
+h1{
+    text-align: center;
+    margin: 40px 0;
+}
+p{
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-indent: 50px;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 40px;
+    opacity: 0.7;
+
+}
+
+.layer-3{
+    position: absolute;
+}
+.layer-3 h1{
+    margin-top: 200px;
+    font-size: 4em;
+}
+
+.layer-3 p {
+    max-width: 76vw;
+    text-align: center;
+    text-indent: 0;
+    font-size: 1.5em;
+    transform: translateY(-20px);
+}
+.layer-3 a{
+    background-color: #7ff5ff;
+    display: block;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #696fe888;
+    font-size: 1.5em;
+    opacity: 1;
+}
+@font-face {
+    font-family: 'tipografiaPpal';
+    src: url('../tip/tip.ttf');
+}
+
+
+
+.topnav{
+    overflow: hidden;
+    background-color: #2A3340;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color:#f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    color: black;
+}
+
+.topnav .icon{
+    display: none;
+}
+
+.topnav a.activa{
+    color:white;
+}
+
+footer a{
+    align-items: center;
+    padding-left: 2%;
+    text-decoration: none;
+    font-size: 1.4em;
+    display: flex;
+   justify-content: center;
+    color: beige;
+    margin: auto;
+}
+.topnav{
+    z-index: 2;
+}
+
+.contenedor{
+    margin: auto;
+    width: 40%;
+    height: min-content;
+    background-color: white;
+    border-radius: 20px;
+    padding: 2%;
+    margin-top: 8%;
+}
+
+.login h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.login form{
+    font-size: 20px;
+}
+.login form .form-group{
+    margin-bottom: 12px;
+}
+
+.login form input[type="sumbit"]{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+a{
+   padding-left: 5%;
+}
